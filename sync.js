@@ -4,10 +4,11 @@ import cron from "node-cron";
 const notion = new Client({ auth: process.env.NOTION_TOKEN });
 
 // Replace with your real database IDs
-const MASTER_DB = "Content-Planner-27185bb9f77081398313d328407e8ffa";
+const MASTER_DB = "27185bb9f77081398313d328407e8ffa";
+
 const CLIENT_DBS = {
-  "Duck & Waffle": "Client-Portals-27185bb9f77081b7ac51ca6098f9fefc"
-  //,"Belleza Villa": "client-db-id-2"
+  "Duck & Waffle": "27185bb9f77081b7ac51ca6098f9fefc"
+  // "Belleza Villa": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 };
 
 async function syncClients() {

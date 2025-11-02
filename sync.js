@@ -4,10 +4,10 @@ import cron from "node-cron";
 const notion = new Client({ auth: process.env.NOTION_TOKEN });
 
 // Replace with your real database IDs
-const MASTER_DB = "27185bb9f77081398313d328407e8ffa";
+const MASTER_DB = "27185bb9-f770-81fa-a58a-000b2a76388c";
 
 const CLIENT_DBS = {
-  "Duck & Waffle": "27185bb9f77081b7ac51ca6098f9fefc"
+  "Duck & Waffle": "27185bb9-f770-8148-8d46-000ba6ab954a"
   // "Belleza Villa": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 };
 
